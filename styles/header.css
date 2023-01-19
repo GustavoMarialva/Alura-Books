@@ -7,6 +7,14 @@
   display: inline-block;
 }
 
+.container__botao:checked ~ .container__rotulo > .cabecalho__menu-hamburguer {
+  background-image: url("../img/Aberto.svg");
+}
+
+.container__botao:checked ~ .container__rotulo {
+  background: linear-gradient(97.54deg, #002f52 35.49%, #326589 165.37%);
+}
+
 .cabecalho {
   background-color: var(--branco);
   display: flex;
@@ -112,6 +120,24 @@
 
   .opcoes__botao {
     display: none;
+  }
+
+  .opcoes__botao:checked ~ .opcoes__rotulo > .opcoes__item {
+    background: linear-gradient(97.54deg, #002f52 35.49%, #326589 165.37%);
+    color: #ffffff;
+  }
+
+  .opcoes__item {
+    padding: 2em 1em;
+  }
+
+  .lista-menu__item:hover {
+    background: linear-gradient(97.54deg, #002f52 35.49%, #326589 165.37%);
+  }
+
+  .lista-menu__item:hover > .lista-menu__link {
+    -webkit-text-fill-color: #ffffff;
+    text-decoration: none;
   }
 }
 
