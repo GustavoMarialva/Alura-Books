@@ -3,3 +3,5 @@
 Projeto de site responsivo desenvolvido durante o curso de HTML e CSS da Alura. 
 
 Tecnologias utilizadas: HTML e CSS
+
+Site nos formatos para celular, tablet e desktop
